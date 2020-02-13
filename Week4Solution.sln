@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefandOut", "RefandOut\Refa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoatRental", "BoatRental\BoatRental.csproj", "{16A2A498-64A3-4D75-A87A-BB8871C44723}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureValue", "FutureValue\FutureValue.csproj", "{FD899E8B-708F-456A-A3CF-D219D932F905}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{16A2A498-64A3-4D75-A87A-BB8871C44723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A2A498-64A3-4D75-A87A-BB8871C44723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A2A498-64A3-4D75-A87A-BB8871C44723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD899E8B-708F-456A-A3CF-D219D932F905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD899E8B-708F-456A-A3CF-D219D932F905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD899E8B-708F-456A-A3CF-D219D932F905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD899E8B-708F-456A-A3CF-D219D932F905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

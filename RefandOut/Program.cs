@@ -8,6 +8,7 @@ namespace RefandOut
 {
     class Program
     {
+        // Static main for the general Console Session.
         static void Main(string[] args)
         {
             Console.WriteLine("Please type your First Name.");
@@ -28,17 +29,20 @@ namespace RefandOut
             Console.ReadKey();
         }
 
+        // Greeting Method, concatenates a preset string with the provided Name and returns the finalized string.
         static string MakeGreeting(string name)
         {
             return "Hello there, " + name + "!!";
         }
 
+        // FullName Method, accepts a firstName and lastName string input and outputs a fullName string - While also returning the length of the name.
         static int FullName(string firstName, string lastName, out string fullName)
         {
             fullName = firstName + " " + lastName;
             return fullName.Length;
         }
 
+        // Quick Captitalization Method, takes a referenced string and quickly changes the first character into an Uppercase character.
         static void Captialize(ref string fullName)
         {
             fullName = fullName.ToUpper();
